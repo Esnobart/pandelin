@@ -1,0 +1,141 @@
+:root {
+    font-family: 'Epilogue', sans-serif;
+}
+
+body,
+p,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    border-bottom: 2px solid #81b0ff;
+    background-color: #fdfdfe;
+}
+
+.nav {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.nav-list {
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-li {
+    display: inline-block;
+    color: #272f07;
+    transition: color 0.5s ease;
+}
+
+.logo {
+    color: #272f07;
+    transition: color 0.5s ease;
+    margin-right: 10px;
+}
+
+.logo-container {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-li:hover,
+.logo:hover {
+    color: #beb4ff;
+    cursor: pointer;
+}
+
+.main-section {
+    height: 100vh;
+    background-color: #b4d0ff;
+}
+
+.main-container {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border: 5px dotted #fdfdfe;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-head {
+    color: #fdfdfe;
+}
+
+.main-text {
+    color: #fdfdfe;
+    width: 360px;
+    margin-top: 10px;
+}
+
+.second-section {
+    height: 100vh;
+    background-color: #9bc0ff;
+}
+
+.third-section {
+    height: 100vh;
+    background-color: #68a0ff;
+}
+
+.third-head,
+.fourth-head {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: #fdfdfe;
+    font-size: 48px;
+}
+
+.team-container,
+.fourth-container {
+    margin-top: 50px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-section {
+    height: 50vh;
+    background-color: #4f90ff;
+}
+
+.fourth-list {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+    gap: 40px;
+}
+
+.fourth-li {
+    flex-basis: calc(20% - 24px);
+}
+
+.li-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    box-shadow: -2px -2px 15px -2px aliceblue;
+    border-radius: 20px;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Filip Antosiak",
+        "role": "Team Leader",
+        "id": 73
+    },
+    {
+        "name": "Ewan Arthur Gartside-Rogers",
+        "role": "Design",
+        "id": 69
+    },
+    {
+        "name": "Joshua Russell",
+        "role": "Marketing Lead",
+        "id": 1140
+    },
+    {
+        "name": "Diego Herrador-Pascual",
+        "role": "Marketing Vice-Lead",
+        "id": 4
+    },
+    {
+        "name": "Patrick Simpliceanu",
+        "role": "Marketing",
+        "id": 420
+    },
+    {
+        "name": "Andrii Machula",
+        "role": "Web-Developer",
+        "id": 2
+    },
+    {
+        "name": "Ella Osmond",
+        "role": "Marketing",
+        "id": 5
+    }
+]
