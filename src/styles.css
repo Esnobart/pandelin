@@ -64,13 +64,40 @@ h1 {
     background-color: #b4d0ff;
 }
 
-.main-container {
+.main-photo {
+    border: 5px dotted #eff5ff;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+.main-first-container {
     position: absolute;
-    bottom: 40px;
-    right: 40px;
+    bottom: 400px;
+    right: 300px;
     border: 5px dotted #eff5ff;
     border-radius: 10px;
     padding: 10px;
+    background-color: #b4d0ff;
+}
+
+.main-second-container {
+    position: absolute;
+    bottom: 300px;
+    right: 200px;
+    border: 5px dotted #eff5ff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #b4d0ff;
+}
+
+.main-third-container {
+    position: absolute;
+    bottom: 200px;
+    right: 250px;
+    border: 5px dotted #eff5ff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #b4d0ff;
 }
 
 .main-text {
@@ -80,6 +107,38 @@ h1 {
 
 .second-section {
     height: 100vh;
+    background-color: #9bc0ff;
+}
+
+.second-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 764px;
+}
+
+.second-photo {
+    border: 5px dotted #eff5ff;
+    border-radius: 10px;
+}
+
+.second-first-container {
+    position: absolute;
+    bottom: -300px;
+    right: 950px;
+    border: 5px dotted #eff5ff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #9bc0ff;
+}
+
+.second-second-container {
+    position: absolute;
+    bottom: -400px;
+    right: 100px;
+    border: 5px dotted #eff5ff;
+    border-radius: 10px;
+    padding: 10px;
     background-color: #9bc0ff;
 }
 
